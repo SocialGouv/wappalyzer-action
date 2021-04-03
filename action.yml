@@ -1,0 +1,13 @@
+name: 'Run a Wappalyser scan'
+description: 'Run a Wappalyser scan on an url'
+inputs:
+  url: 
+    description: 'URL ro scan'
+    required: true
+  output:
+    description: 'Path to output file. defaults to httpobs.json'
+    default: 'wappalyser.json'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
