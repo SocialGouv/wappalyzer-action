@@ -9,5 +9,10 @@ inputs:
     default: 'wappalyser.json'
     required: true
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        cd ${{ github.action_path }}
+        yarn
+        node src/scan ${{ inputs.url }} > ${{ github.workspace }}/${{ inputs.output }}

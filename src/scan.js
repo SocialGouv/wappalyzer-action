@@ -1,7 +1,7 @@
 const Wappalyzer = require("wappalyzer");
 
 const options = {
-  debug: true,
+  debug: false,
   delay: 1000,
   headers: {},
   maxDepth: 3,
@@ -38,7 +38,8 @@ const scan = async (url) => {
 };
 
 if (require.main === module) {
-  scan("http://www.free.fr").then(console.log).catch(console.log);
+  const url = process.argv[process.argv.length - 1];
+  scan(url).then(console.log).catch(console.log);
 }
 
 module.exports = scan;
