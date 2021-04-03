@@ -39,7 +39,9 @@ const scan = async (url) => {
 
 if (require.main === module) {
   const url = process.argv[process.argv.length - 1];
-  scan(url).then(console.log).catch(console.log);
+  scan(url)
+    .then((d) => console.log(JSON.stringify(d)))
+    .catch(console.log);
 }
 
 module.exports = scan;
