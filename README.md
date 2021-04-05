@@ -1,6 +1,6 @@
-# wappalyser-action
+# wappalyzer-action
 
-Run a [Wappalyser](https://github.com/AliasIO/wappalyzer) scan and report results as JSON.
+Run a [Wappalyzer](https://github.com/AliasIO/wappalyzer) scan and report results as JSON.
 
 ## Usage
 
@@ -9,7 +9,7 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
-      - uses: "socialgouv/wappalyser-action@master"
+      - uses: "socialgouv/wappalyzer-action@master"
         with:
           url: http://www.free.fr
           output: report.json

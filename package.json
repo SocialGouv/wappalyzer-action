@@ -1,7 +1,7 @@
 {
-  "name": "wappalyser-action",
+  "name": "wappalyzer-action",
   "version": "1.0.0",
-  "description": "Run Mozilla HTTP Observatory scan",
+  "description": "Run Wappalyzer scan",
   "main": "./src/index.js",
   "types": "index.d.ts",
   "private": true,
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/socialgouv/wappalyser-action.git"
+    "url": "git+https://github.com/socialgouv/wappalyzer-action.git"
   },
   "keywords": [
     "GitHub",
@@ -24,9 +24,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/socialgouv/wappalyser-action/issues"
+    "url": "https://github.com/socialgouv/wappalyzer-action/issues"
   },
-  "homepage": "https://github.com/socialgouv/wappalyser-action#readme",
+  "homepage": "https://github.com/socialgouv/wappalyzer-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.5",
     "wappalyzer": "^6.5.30"
