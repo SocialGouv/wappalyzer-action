@@ -29,7 +29,7 @@
   "homepage": "https://github.com/socialgouv/wappalyzer-action#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "wappalyzer": "^6.9.2"
+    "wappalyzer": "^6.9.5"
   },
   "devDependencies": {
     "eslint": "^7.26.0",
