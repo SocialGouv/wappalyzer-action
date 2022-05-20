@@ -4,7 +4,7 @@ const options = {
   debug: false,
   delay: 1000,
   headers: {},
-  maxDepth: 3,
+  maxDepth: 1,
   maxUrls: 10,
   maxWait: 10000,
   recursive: true,
