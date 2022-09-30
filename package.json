@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/socialgouv/wappalyzer-action#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.10.0",
     "wappalyzer": "^6.10.26"
   },
   "devDependencies": {
