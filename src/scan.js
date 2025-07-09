@@ -9,7 +9,7 @@ const options = {
   maxWait: 10000,
   recursive: true,
   probe: true,
-  userAgent: "Wappalyzer",
+  userAgent: "Wappalyzer dashlord",
   htmlMaxCols: 2000,
   htmlMaxRows: 2000,
   noRedirect: true
