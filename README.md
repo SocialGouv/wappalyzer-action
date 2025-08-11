@@ -1,6 +1,6 @@
 # wappalyzer-action
 
-Run a [Wappalyzer](https://github.com/AliasIO/wappalyzer) scan and report results as JSON.
+Run a [Wappalyzer](https://www.wappalyzer.com/lookup/) scan and report results as JSON.
 
 ## Usage
 
